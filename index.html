@@ -8,6 +8,32 @@
     <title>To do!</title>
   </head>
   <body>
+    <header>
+      <h1>Task list</h1>
+      <form id="new-task-form">
+        <input
+          type="text"
+          name=""
+          id="new-task-input"
+          placeholder="What do you have planned?"
+        />
+      </form>
+      <input type="submit" id="new-task-submit" value="Add task" />
+    </header>
+
+    <section class="task-list">
+      <h2>Tasks</h2>
+      <div id="tasks">
+        <div class="content">
+          <input type="text" class="text" value="My task" readonly />
+        </div>
+        <div class="actions">
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn">Delete</button>
+        </div>
+      </div>
+    </section>
+
     <script src="main.js"></script>
   </body>
 </html>
