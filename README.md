@@ -1,1 +1,1 @@
-#To-do app in HTML, CSS and JS
+# To-do app in HTML, CSS and JS
